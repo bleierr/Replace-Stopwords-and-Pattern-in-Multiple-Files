@@ -2,7 +2,7 @@
 This is a simple Python script to manipulate multiple text files in a folder. 
 Stopwords will be removed and patterns can be replaced.
 
-The script was designed to be executed from the commandline and tested only on Win.
+The script was written in Python 3.5 and designed to be executed from the commandline and tested only on Win.
 Any bug report is very much appreciated.
 
 From the commandline the script can be executed with the default settings:
