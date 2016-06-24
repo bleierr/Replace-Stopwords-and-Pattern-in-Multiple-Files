@@ -31,13 +31,12 @@ in dem: hoha
 ^\d : starts with number
 
 The following optional arguments may be provided when executing the script from commandline:
-  -h, --help            show this help message and exit
-  -d DIR, --dir DIR     path to the directory containing the txt files
-  -o OUT, --out OUT     path to the directory where the output txt files will
-                        be stored
-  -s STOPWORDS, --stopwords STOPWORDS
+-  -h, --help            show this help message and exit
+-  -d DIR, --dir DIR     path to the directory containing the txt files
+- -o OUT, --out OUT     path to the directory where the output txt files will be stored
+-  -s STOPWORDS, --stopwords STOPWORDS 
                         file path to the stopword list, a txt file
-  -r REPLACELIST, --replacelist REPLACELIST
+- -r REPLACELIST, --replacelist REPLACELIST
                         file path to the replace list, a txt file containing a
                         list of strings and replace string in the following
                         format: strg:replstrg, strg:replstrg
