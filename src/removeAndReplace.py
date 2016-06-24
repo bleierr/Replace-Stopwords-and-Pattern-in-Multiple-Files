@@ -2,6 +2,15 @@ import os, re
 import glob
 import argparse
 
+"""This Python script was written with Python 3.5 and designed for command line execution.
+It was tested under windows 10.
+The script facilitates removing of stopwords and
+replacing patterns with strings of text in multiple text files.
+Roman Bleier
+24 July 2016
+"""
+
+
 def getStopwords(fname):
     with open(fname, "r") as f:
         fStrg = f.read()
